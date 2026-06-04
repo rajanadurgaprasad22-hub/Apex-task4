@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Style eCommerce</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f1f3f6;
+    }
+
+    header {
+      background-color: #2874f0;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+      
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease-in-out;
+      padding: 1rem;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+
+    .product-card h3 {
+      font-size: 16px;
+      margin: 10px 0 5px;
+    }
+
+    .price {
+      color: #388e3c;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+
+    button {
+      padding: 8px 16px;
+      background-color: #ff9f00;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #fb8c00;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My ECommerce-Style Store</h1>
+  </header>
+
+  <div class="product-grid">
+    
+    <div class="product-card">
+      <img src="images/samsung.webp" alt="Product 1">
+      <h3>Smartphone XYZ</h3>
+      <p class="price">$899.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+
+    <div class="product-card">
+      <img src="images/headphones.jpeg" alt="Product 2">
+      <h3>Wireless Headphones</h3>
+      <p class="price">$59.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/speaker.jpeg" alt="Product 3">
+      <h3>Bluetooth Speaker</h3>
+      <p class="price">$49.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/mouse.jpg" alt="Product 4">
+      <h3>Gaming Mouse</h3>
+      <p class="price">$24.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/bag.jpeg" alt="Product 5">
+      <h3>Laptop Backpack</h3>
+      <p class="price">$34.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/band.jpeg" alt="Product 6">
+      <h3>Fitness Band</h3>
+      <p class="price">$69.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/monitor.jpeg" alt="Product 7">
+      <h3>LED Monitor</h3>
+      <p class="price">$1929.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/camera.jpg" alt="Product 8">
+      <h3>DSLR Camera</h3>
+      <p class="price">$599.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/keyboard.jpeg" alt="Product 9">
+      <h3>Wireless Keyboard</h3>
+      <p class="price">$29.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <img src="images/bank.jpeg" alt="Product 10">
+      <h3>Power Bank</h3>
+      <p class="price">$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My ECommerce-Style Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
